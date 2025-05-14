@@ -1,19 +1,24 @@
-import React from 'react';
-import './App.css'; // import from app.css
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
-const App = () => {
+function App() {
+  const [count, setCount] = useState(0)
+
   return (
+    <div>
+      
     <div style={{
         backgroundImage: "url('/bck.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',
         color: 'white',
-    }}>
-      
-    <div>
+    }}
+        >
         <h2 style={{ position: 'absolute', top: '10px', left: '10px' }}>
-        Hello my name kkwk
+        Hello my name
         </h2>
         </div>
 
@@ -33,4 +38,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App
