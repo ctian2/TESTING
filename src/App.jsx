@@ -3,18 +3,17 @@ import './App.css'; // import from app.css
 
 const App = () => {
   return (
-    <div>
-      
     <div style={{
         backgroundImage: "url('/bck.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',
         color: 'white',
-    }}
-        >
+    }}>
+      
+    <div>
         <h2 style={{ position: 'absolute', top: '10px', left: '10px' }}>
-        Hello my name
+        Hello my name kkwk
         </h2>
         </div>
 
